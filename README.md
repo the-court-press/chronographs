@@ -2,7 +2,7 @@
 
 The home page for **Chronographs**: a series of interactive histories, each told along a single line through time, with events that open onto archive sources.
 
-**Live:** https://julianlee314-hue.github.io/chronographs/
+**Live:** https://the-court-press.github.io/chronographs/
 
 ![Chronographs home page](_shots/home.png)
 
@@ -10,9 +10,9 @@ The home page for **Chronographs**: a series of interactive histories, each told
 
 | No. | Chronograph | Span | Site | Repo |
 | --- | --- | --- | --- | --- |
-| I | The Dow | 1896–2026 | [live](https://julianlee314-hue.github.io/dow-timeline/v0.2/) | [dow-timeline](https://github.com/julianlee314-hue/dow-timeline) |
-| II | The Bank | 1694–1994 | [live](https://julianlee314-hue.github.io/the-bank-1694/) | [the-bank-1694](https://github.com/julianlee314-hue/the-bank-1694) |
-| III | World War Two, Week by Week | 1939–1945 | [live](https://julianlee314-hue.github.io/ww2-strat-map/) | [ww2-strat-map](https://github.com/julianlee314-hue/ww2-strat-map) |
+| I | The Dow | 1896–2026 | [live](https://the-court-press.github.io/dow-timeline/v0.2/) | [dow-timeline](https://github.com/the-court-press/dow-timeline) |
+| II | The Bank | 1694–1994 | [live](https://the-court-press.github.io/the-bank-1694/) | [the-bank-1694](https://github.com/the-court-press/the-bank-1694) |
+| III | World War Two, Week by Week | 1939–1945 | [live](https://the-court-press.github.io/ww2-strat-map/) | [ww2-strat-map](https://github.com/the-court-press/ww2-strat-map) |
 | IV–VI | Coming soon | | | |
 
 ## Adding or editing a Chronograph
@@ -24,9 +24,9 @@ Every card on the page comes from [`data/chronographs.json`](data/chronographs.j
   "title": "The Bank",
   "span": "1694–1994",
   "blurb": "One sentence on what the line and the events show.",
-  "url": "https://julianlee314-hue.github.io/the-bank-1694/",
+  "url": "https://the-court-press.github.io/the-bank-1694/",
   "thumb": "img/bank.jpg",
-  "repo": "https://github.com/julianlee314-hue/the-bank-1694",
+  "repo": "https://github.com/the-court-press/the-bank-1694",
   "status": "live"
 }
 ```

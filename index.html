@@ -7,7 +7,7 @@
 <meta name="description" content="Chronographs: a series of interactive histories, each told along a single line through time.">
 <meta property="og:title" content="Chronographs">
 <meta property="og:description" content="History told along a single line.">
-<meta property="og:image" content="https://julianlee314-hue.github.io/chronographs/img/dow.jpg">
+<meta property="og:image" content="https://the-court-press.github.io/chronographs/img/dow.jpg">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23f3f5f1'/%3E%3Cpath d='M5 22 L11 17 L15 19 L21 11 L27 8' fill='none' stroke='%2314231c' stroke-width='2.2' stroke-linejoin='round'/%3E%3Ccircle cx='21' cy='11' r='3' fill='%231f5c43'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -139,9 +139,9 @@ footer .repos a + a::before { content: "·"; color: var(--muted); margin: 0 8px;
     </ul>
     <noscript>
       <ul>
-        <li><a href="https://julianlee314-hue.github.io/dow-timeline/v0.2/">The Dow, 1896–2026</a></li>
-        <li><a href="https://julianlee314-hue.github.io/the-bank-1694/">The Bank, 1694–1994</a></li>
-        <li><a href="https://julianlee314-hue.github.io/ww2-strat-map/">World War Two, Week by Week, 1939–1945</a></li>
+        <li><a href="https://the-court-press.github.io/dow-timeline/v0.2/">The Dow, 1896–2026</a></li>
+        <li><a href="https://the-court-press.github.io/the-bank-1694/">The Bank, 1694–1994</a></li>
+        <li><a href="https://the-court-press.github.io/ww2-strat-map/">World War Two, Week by Week, 1939–1945</a></li>
       </ul>
     </noscript>
   </section>
@@ -202,7 +202,7 @@ fetch("data/chronographs.json", { cache: "no-cache" })
     const live = list.filter(c => c.status === "live").length, soon = list.length - live;
     document.getElementById("count").textContent = `${live} live` + (soon ? ` · ${soon} coming` : "");
     const repos = list.filter(c => c.repo).map(c => `<a href="${esc(c.repo)}">${esc(c.repo.split("/").pop())}</a>`);
-    repos.push(`<a href="https://github.com/julianlee314-hue/chronographs">chronographs</a>`);
+    repos.push(`<a href="https://github.com/the-court-press/chronographs">chronographs</a>`);
     document.getElementById("repos").innerHTML = repos.join("");
   })
   .catch(err => {
